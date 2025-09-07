@@ -2,8 +2,8 @@
 A simulated system to help facilitate the production and fulfillment of online food orders.
 
 ## Local Server
-[ARM](https://drive.google.com/file/d/112_-TG33BFBxMdnogVDVVaJRuh9mAvlC/view)
-[Intel](https://drive.google.com/file/d/1uP-KzwYHRFjoobntnjZ4HMVIc3lAQB4H/view)
+- [ARM](https://drive.google.com/file/d/112_-TG33BFBxMdnogVDVVaJRuh9mAvlC/view)
+- [Intel](https://drive.google.com/file/d/1uP-KzwYHRFjoobntnjZ4HMVIc3lAQB4H/view)
 
 To run the server, you should have Java 8 or newer installed on your machine and start the server using the following commend from the unzipped directory:
 UNIX/Mac OS
