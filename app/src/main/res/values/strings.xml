@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">CSSChallenge</string>
+
+    <!-- Main Screen -->
+    <string name="order_events_title">Food Order Fulfillment</string>
+    <string name="loading_order_events">Loading order events…</string>
+    <string name="kitchen_closed_title">Kitchen is closed</string>
+    <string name="kitchen_closed_subtitle">No order events available</string>
+    <string name="kitchen_error_title">Error in the kitchen</string>
+    <string name="kitchen_error_message">Please refresh and try again</string>
+
+    <!-- Statistics Section -->
+    <string name="order_statistics_title">Order Statistics</string>
+    <string name="statistic_orders_delivered">Orders Delivered</string>
+    <string name="statistic_orders_trashed">Orders Trashed</string>
+    <string name="statistic_total_sales">Total Sales</string>
+    <string name="statistic_total_waste">Total Waste</string>
+    <string name="statistic_total_revenue">Total Revenue</string>
+    <string name="currency_format">$%1$s</string>
+
+    <!-- Shelf Section -->
+    <string name="order_shelves_title">Items by Shelf</string>
+    <string name="shelf_items_count">%1$d items</string>
+    <string name="shelf_empty">No items on this shelf</string>
+    <string name="order_number_format">Order #%1$s</string>
+
+    <!-- Content Descriptions -->
+    <string name="action_refresh">Refresh</string>
+    <string name="action_back">Back</string>
+
+    <!-- Order Detail Screen -->
+    <string name="order_detail_title">Order Details</string>
+    <string name="order_detail_loading">Loading order details...</string>
+    <string name="order_detail_not_found_title">Order not found</string>
+    <string name="order_detail_not_found_subtitle">The order you are looking for does not exist</string>
+
+    <!-- Order Detail Fields -->
+    <string name="order_detail_id">Order ID</string>
+    <string name="order_detail_customer">Customer</string>
+    <string name="order_detail_price">Price</string>
+    <string name="order_detail_state">Status</string>
+    <string name="order_detail_shelf">Shelf</string>
+    <string name="order_detail_destination">Destination</string>
+    <string name="order_detail_last_updated">Last Updated</string>
+
+    <!-- Changelog Section -->
+    <string name="order_detail_changelog_title">Order Timeline</string>
+    <string name="order_detail_no_changelog">No changes recorded yet</string>
+
+    <!-- Changelog Entry Descriptions -->
+    <string name="changelog_order_created">Order created</string>
+    <string name="changelog_state_changed">State changed to %1$s</string>
+    <string name="changelog_shelf_changed">Moved to %1$s shelf</string>
+    <string name="changelog_both_changed">State changed to %1$s and moved to %2$s shelf</string>
+</resources>
