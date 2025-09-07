@@ -34,16 +34,16 @@ proguard/
 # Android Studio captures folder
 captures/
 
-# IntelliJ/Android Studio
+# IntelliJ/Android Studio - Keep essential project files, ignore user-specific ones
 *.iml
 .idea/workspace.xml
 .idea/tasks.xml
 .idea/assetWizardSettings.xml
-.idea/dictionaries
+.idea/dictionaries/
 .idea/libraries/
 .idea/caches/
-.idea/modules.xml
 .idea/modules/
+.idea/inspectionProfiles/
 # Comment next line if keeping position of elements in Navigation Editor is relevant for you
 .idea/navEditor.xml
 .idea/deploymentTargetSelector.xml
