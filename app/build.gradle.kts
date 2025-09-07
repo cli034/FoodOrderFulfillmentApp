@@ -4,7 +4,6 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.ksp)
     alias(libs.plugins.hilt)
-    alias(libs.plugins.kapt)
     alias(libs.plugins.kotlin.serialization)
 }
 
@@ -79,8 +78,8 @@ dependencies {
     implementation(libs.moshi.adapters)
     ksp(libs.moshi.kotlin.codegen)
 
-    // Hilt
-    kapt(libs.hilt.compiler)
+    // Hilt - Use KSP instead of KAPT
+    ksp(libs.hilt.compiler)
     implementation(libs.hilt)
     implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.hilt.navigation.compose)
